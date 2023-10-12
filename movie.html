@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    </head>
+    <body>
+
+        <header id="header" class="header_menu">
+        </header>
+        <!-- Content -->
+        <div class="content movie_content">
+            <div id="movie_content_container" class="container">
+                
+            </div>
+        </div>
+        <div id="player" class="player">
+            <!-- Player -->
+        </div>
+        
+        <div class="comments">
+            <div class="content">
+                <div class="title">
+                    <h2>Комментарии</h2>
+                </div>
+                <div class="add_comments">
+                    <div class="add_comments_elements">
+                        <label for="message">Добавить комментарий</label><br>
+                        <textarea name="message" id="message" onchange="calcSymCount()"></textarea><br>
+                        <label id="max_sym_count">Осталось символов: 255</label>
+                    </div>
+                    <div class="add_comments_buttons">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+
+
+                <div class="comment">
+                    <div class="message">
+                        <div class="comment_info">
+                            <span class="user_name">Minuk E.A.</span>
+                            <span>оставлен сегодня в 10:44</span>
+                        </div>
+                        <div class="comment_text">
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                        
+                    </div>
+                    <div class="subcomment">
+                        <div class="message">
+                            <div class="comment_info">
+                                <span class="user_name">Minuk E.A.</span>
+                                <span>оставлен сегодня в 10:44</span>
+                            </div>
+                            <div class="comment_mes">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="subcomment">
+                            <div class="message">
+                                <div class="comment_info">
+                                    <span class="user_name">Minuk E.A.</span>
+                                    <span>оставлен сегодня в 10:44</span>
+                                </div>
+                                <div class="comment_mes">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+                            <div class="subcomment">
+                                <div class="message">
+                                    <div class="comment_info">
+                                        <span class="user_name">Minuk E.A.</span>
+                                        <span>оставлен сегодня в 10:44</span>
+                                    </div>
+                                    <div class="comment_mes">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subcomment">
+                        <div class="message">
+                            <div class="comment_info">
+                                <span class="user_name">Minuk E.A.</span>
+                                <span>оставлен сегодня в 10:44</span>
+                            </div>
+                            <div class="comment_mes">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer id="footer" class="footer">
+            
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/loadHeader.js"></script>
+        <script src="js/loadFooter.js"></script>
+        <script src="js/getMoviesData.js"></script>
+        <script src="js/changeColorStyle.js"></script>
+        <script src="js/changeColorStyle.js"></script>
+        <script src="js/calcSymCount.js"></script>
+        
+    </body>
+</html>
